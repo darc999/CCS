@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".adminActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+
+        android:background="@color/black"
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:inputType="textPersonName"
+        android:text="Admin Access"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/CM"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/editTextTextPersonName2"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:textSize="25dp"
+        android:text="Category Management"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/CUPM"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/CM"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:textSize="25dp"
+        android:text="CUPCAKE MANAGEMENT"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="149dp" />
+
+    <Button
+        android:id="@+id/ORM"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/CUPM"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="ORDER MANEGMENT"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="149dp" />
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="651dp"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_marginTop="58dp"
+        android:hint="Enter Username"
+        android:background="@color/white"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Password"
+        android:background="@color/white"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="50dp"
+        android:autofillHints=""
+        android:hint="Confirm Password"
+        android:background="@color/white"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/btns"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/repassword"
+        android:layout_marginTop="43dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnsu"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btns"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#000000"
+        android:text="Login Here"
+        android:rotationX="10"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:inputType="textPersonName"
+        android:text="Welcome To Sprinkles Bakery"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

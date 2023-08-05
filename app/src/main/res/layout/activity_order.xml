@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".orderActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="661dp"
+            android:layout_below="@+id/editTextTextPersonName"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="14dp"
+            app:srcCompat="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/editTextTextPersonName"
+            android:layout_marginTop="55dp"
+            android:background="@color/white"
+            android:hint="Enter Quantity"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/cname2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/cal"
+            android:layout_marginTop="61dp"
+            android:background="@color/white"
+            android:hint="Enter Username"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/cname3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/cname2"
+            android:layout_marginTop="18dp"
+            android:background="@color/white"
+            android:hint="Enter Address"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/cname4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/cname3"
+            android:layout_marginTop="15dp"
+            android:background="@color/white"
+            android:hint="Enter Phonenumber"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/cname"
+            android:layout_marginTop="51dp"
+            android:backgroundTint="#000000"
+            android:rotationX="10"
+            android:text="CALCULATE" />
+
+        <Button
+            android:id="@+id/ord"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/cname4"
+            android:layout_marginTop="27dp"
+            android:backgroundTint="#000000"
+            android:rotationX="10"
+            android:text="ORDER" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:forceDarkAllowed="false"
+            android:inputType="textPersonName"
+            android:text="ORDER HERE"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold|italic" />
+</RelativeLayout>

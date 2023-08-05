@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Spinner
+        android:id="@+id/spincat"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editTextTextPersonName5"
+        android:layout_marginTop="42dp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:inputType="textPersonName"
+        android:text="Select Cupcake"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/displaydata"
+        android:layout_width="match_parent"
+        android:layout_height="552dp"
+        android:layout_below="@+id/spincat"
+        android:layout_marginTop="37dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/sss"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editTextTextPersonName5"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/spincat"
+        android:backgroundTint="#000000"
+        android:text="Search" />
+
+</RelativeLayout>

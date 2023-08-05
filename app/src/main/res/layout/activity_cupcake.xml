@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Cuid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cupcakeActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:layout_below="@+id/editTextTextPersonName4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="13dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:inputType="textPersonName"
+        android:text="Cupcake Management"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/cupname"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/editTextTextPersonName4"
+        android:layout_marginTop="32dp"
+        android:hint="Cupcake Name" />
+
+    <EditText
+        android:id="@+id/cuprice"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/cupname"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint="Cupcake Price" />
+
+    <EditText
+        android:id="@+id/cupstock"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:layout_below="@+id/cuprice"
+        android:layout_marginTop="32dp"
+        android:hint="Cupcake Stock" />
+
+    <EditText
+        android:id="@+id/catid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/cupstock"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint="Category ID" />
+
+    <EditText
+        android:id="@+id/cuppid"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/addcup"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint="Cupcake ID" />
+
+    <Button
+        android:id="@+id/addcup"
+        android:layout_width="199dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/catid"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/cuppdate"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cuppid"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="update" />
+
+    <Button
+        android:id="@+id/cupdel"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cuppid"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/cuppdate"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/cupsear"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cuppid"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/cupdel"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/viewcup"
+        android:layout_width="209dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/catid"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="32dp"
+        android:layout_toEndOf="@+id/addcup"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="DISPLAY" />
+
+</RelativeLayout>

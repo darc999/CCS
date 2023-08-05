@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".categoryActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/cname"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_marginTop="37dp"
+        android:background="@color/white"
+        android:hint="Enter Category"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <EditText
+        android:id="@+id/cid"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/ord"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:hint="Enter ID"
+        android:minHeight="48dp"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cname"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="Add" />
+
+
+    <Button
+        android:id="@+id/ord"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/caup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cid"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/cadel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/caup"
+        android:layout_marginTop="30dp"
+        android:rotationX="10"
+        android:text="Delete"
+        android:backgroundTint="#000000"/>
+
+    <Button
+        android:id="@+id/casea"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/cadel"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#000000"
+        android:rotationX="10"
+        android:text="Search" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        android:ems="10"
+        android:forceDarkAllowed="false"
+        android:inputType="textPersonName"
+        android:text="Category Management"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
